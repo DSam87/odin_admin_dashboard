@@ -5,6 +5,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
 .main-container {
   display: grid;
   height: 100vh;
@@ -210,6 +214,8 @@
   grid-template-rows: repeat(3, 1f);
   background-color: #e1e7f0;
 
+  height: 100%;
+
   justify-items: center;
   align-items: center;
 }
@@ -259,6 +265,7 @@
   background-color: #e1e7f0;
   display: grid;
   width: 100%;
+  height: 100%;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 1fr;
   grid-column: 2 / 3;
@@ -288,7 +295,7 @@
 
 .announcements-display {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .announcement {
